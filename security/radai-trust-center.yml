@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.radai.com/security
+url: https://trust.radai.com/
+# Rad AI's own posture is "SOC 2 Type II HIPAA+ certified for security,
+# confidentiality and availability" (per /security). The longer list on that
+# page (PCI DSS L1, SOC 1/3, DIACAP, FISMA, FedRAMP, ISO 9001/28001/27017/27018)
+# is inherited AWS-infrastructure compliance boilerplate, not Rad AI's own
+# certification, so only the genuinely first-party certs are recorded here.
+certifications:
+- SOC 2 Type II
+- HIPAA
+evidence:
+- source: https://www.radai.com/security
+  keywords:
+  - soc 2 type ii
+  - hipaa
+  - trust center
+- source: https://trust.radai.com/
+  kind: trust-center

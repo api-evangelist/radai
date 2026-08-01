@@ -1,19 +1,46 @@
 aid: radai
-name: Radai
-description: Radai is a company surfaced as a portfolio company of khosla-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Rad AI
+description: >-
+  Rad AI is a San Francisco based healthcare technology company that builds
+  generative and machine-learning software for radiology. Its products help
+  radiologists work faster and reduce burnout: Rad AI Reporting is a generative
+  AI reporting platform, Rad AI Impressions automatically generates customized
+  report impressions (reported to save radiologists 60+ minutes per shift), and
+  Rad AI Continuity manages follow-up of incidental findings. The company is
+  SOC 2 Type II and HIPAA certified and is backed by Khosla Ventures. Rad AI
+  markets its clinical products directly to health systems and imaging groups
+  and does not currently publish a public developer API, developer portal, or
+  SDKs; this profile captures its identity, security posture, and compliance
+  program for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/radai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - khosla-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: no-public-api-surface
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/6152daa24c01cd3e8c46dd83/6178457e07836e87e97eef32_Rad%20AI%20Open%20Graph.jpg
 tags:
 - Company
+- Healthcare
+- Radiology
+- Artificial Intelligence
+- Medical Imaging
+- Clinical
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.radai.com/
+- type: Blog
+  url: https://www.radai.com/blog
+- type: Compliance
+  url: https://www.radai.com/security
+- type: TrustCenter
+  url: security/radai-trust-center.yml
+- type: PrivacyPolicy
+  url: https://www.iubenda.com/privacy-policy/49756136
+- type: DomainSecurity
+  url: security/radai-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
